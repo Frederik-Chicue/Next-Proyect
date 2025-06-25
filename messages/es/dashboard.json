@@ -1,0 +1,52 @@
+{
+    "title": "Panel de control",
+
+    "breadcrumb": "Dashboard > Inicio",
+    
+    "stats": {
+        "total": "Total campeones",
+        "completed": "Completados",
+        "remaining": "Por entrenar"
+    },
+
+    "search": "Buscar campeón...",
+    "loading": "Cargando campeones...",
+    "empty": "No se encontraron campeones.",
+    
+    "banner": {
+        "correct": "Has acertado en {{count}}",
+        "remaining": "Te faltan {{count}}"
+    },
+
+    "quiz": {
+        "completed": "Quiz completado",
+        "start": "Empezar Quiz"
+    },
+
+    "startQuiz": "Empezar Quiz",
+    "quizCompleted": "Quiz completado",
+    "tags": "Roles",
+    "close": "Cerrar",
+    "questionTitle": "Pregunta sobre {{name}}",
+    "questionText": "¿Cuál de estos «tags» pertenece a {{name}}?",
+
+    "roles": {
+        "Mage": "Mago",
+        "Assassin": "Asesino",
+        "Fighter": "Luchador",
+        "Tank": "Tanque",
+        "Marksman": "Tirador",
+        "Support": "Soporte",
+        "Healer": "Sanador"
+    },
+
+    "quizAlreadyCompleted": "¡Ya completaste este quiz!",
+    "incorrectAnswer": "Respuesta incorrecta",
+
+    "dashboard": "Panel",
+    "champions": "Campeones",
+    "synergies": "Sinergias",
+    "training": "Entrenamiento",
+    "settings": "Configuración",
+    "logout": "Cerrar sesión"
+}

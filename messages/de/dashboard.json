@@ -1,0 +1,52 @@
+{
+    "title": "Dashboard",
+
+    "breadcrumb": "Dashboard > Start",
+
+    "stats": {
+        "total": "Gesamtanzahl Champions",
+        "completed": "Abgeschlossen",
+        "remaining": "Zu trainieren"
+    },
+
+    "search": "Champion suchen...",
+    "loading": "Champions werden geladen...",
+    "empty": "Keine Champions gefunden.",
+
+    "banner": {
+        "correct": "{{count}} richtig beantwortet",
+        "remaining": "{{count}} verbleibend"
+    },
+
+    "quiz": {
+        "completed": "Quiz abgeschlossen",
+        "start": "Quiz starten"
+    },
+
+    "startQuiz": "Quiz starten",
+    "quizCompleted": "Quiz abgeschlossen",
+    "tags": "Rollen",
+    "close": "Schließen",
+    "questionTitle": "Frage zu {{name}}",
+    "questionText": "Welche dieser Rollen gehört zu {{name}}?",
+
+    "roles": {
+        "Mage": "Magier",
+        "Assassin": "Assassine",
+        "Fighter": "Kämpfer",
+        "Tank": "Tank",
+        "Marksman": "Schütze",
+        "Support": "Support",
+        "Healer": "Heiler"
+    },
+
+    "quizAlreadyCompleted": "Du hast dieses Quiz bereits abgeschlossen!",
+    "incorrectAnswer": "Falsche Antwort",
+
+    "dashboard": "Übersicht",
+    "champions": "Champions",
+    "synergies": "Synergien",
+    "training": "Training",
+    "settings": "Einstellungen",
+    "logout": "Abmelden"
+}

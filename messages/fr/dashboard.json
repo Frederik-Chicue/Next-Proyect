@@ -1,0 +1,52 @@
+{
+    "title": "Tableau de bord",
+
+    "breadcrumb": "Tableau de bord > Accueil",
+    
+    "stats": {
+        "total": "Total des champions",
+        "completed": "Complétés",
+        "remaining": "À entraîner"
+    },
+
+    "search": "Rechercher un champion...",
+    "loading": "Chargement des champions...",
+    "empty": "Aucun champion trouvé.",
+    
+    "banner": {
+        "correct": "Tu as répondu correctement à {{count}}",
+        "remaining": "Il t’en reste {{count}}"
+    },
+
+    "quiz": {
+        "completed": "Quiz terminé",
+        "start": "Commencer le quiz"
+    },
+
+    "startQuiz": "Commencer le quiz",
+    "quizCompleted": "Quiz terminé",
+    "tags": "Rôles",
+    "close": "Fermer",
+    "questionTitle": "Question sur {{name}}",
+    "questionText": "Lequel de ces rôles appartient à {{name}} ?",
+
+    "roles": {
+        "Mage": "Mage",
+        "Assassin": "Assassin",
+        "Fighter": "Combattant",
+        "Tank": "Tank",
+        "Marksman": "Tireur",
+        "Support": "Support",
+        "Healer": "Soigneur"
+    },
+
+    "quizAlreadyCompleted": "Tu as déjà terminé ce quiz !",
+    "incorrectAnswer": "Réponse incorrecte",
+
+    "dashboard": "Tableau",
+    "champions": "Champions",
+    "synergies": "Synergies",
+    "training": "Entraînement",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+}

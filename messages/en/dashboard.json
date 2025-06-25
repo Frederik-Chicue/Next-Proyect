@@ -1,0 +1,50 @@
+{
+    "title": "Dashboard",
+
+    "breadcrumb": "Dashboard > Home",
+
+    "stats": {
+        "total": "Total champions",
+        "completed": "Completed",
+        "remaining": "To train"
+    },
+    
+    "search": "Search champion...",
+    "loading": "Loading champions...",
+    "empty": "No champions found.",
+    
+    "banner": {
+        "correct": "You got {{count}} right",
+        "remaining": "{{count}} remaining"
+    },
+
+    "quiz": {
+        "completed": "Quiz completed",
+        "start": "Start Quiz"
+    },
+
+    "startQuiz": "Start Quiz",
+    "quizCompleted": "Quiz completed",
+    "tags": "Roles",
+    "questionTitle": "Question about {{champion}}",
+    "questionText": "Which of these roles belongs to {{champion}}?",
+
+    "roles": {
+        "Mage": "Mage",
+        "Assassin": "Assassin",
+        "Fighter": "Fighter",
+        "Tank": "Tank",
+        "Marksman": "Marksman",
+        "Support": "Support"
+    },
+
+    "quizAlreadyCompleted": "You already completed this quiz!",
+    "incorrectAnswer": "Wrong answer",
+
+    "dashboard": "Dashboard",
+    "champions": "Champions",
+    "synergies": "Synergies",
+    "training": "Training",
+    "settings": "Settings",
+    "logout": "Logout"
+}

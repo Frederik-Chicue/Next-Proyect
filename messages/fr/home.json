@@ -1,0 +1,112 @@
+{
+    "hero": {
+        "title": {
+        "part1": "Entraîne tes réflexes",
+        "part2": "avec LastHitLegends"
+        },
+
+        "description": {
+        "line1": "Prêt à passer au niveau supérieur ? Découvre les meilleures astuces de farm, conseils de progression, builds efficaces et tactiques pour grimper en elo comme un pro.",
+        "line2": "Joue à ton rythme, mais avec stratégie."
+        },
+
+        "component": {
+        "subtitle": "Commence ton entraînement",
+        "button": "Commencer"
+        },
+
+        "numbers": {
+        "champions": "Champions",
+        "users": "Nouveaux utilisateurs",
+        "improvements": "Améliorations continues",
+        "average": "Amélioration moyenne"
+        }
+    },
+
+    "services": {
+        "title": "Services Power-Up",
+        "description": "Chaque joueur a besoin d’un coup de pouce pour révéler son plein potentiel. Nos services Power-Up sont conçus pour t’offrir les outils, le soutien et la stratégie nécessaires pour devenir une légende avec l’aide de LastHit-Legends."
+    },
+
+    "servicesData": [
+        {
+        "title": "Astuces intelligentes",
+        "description": "Des conseils clés pour gagner du temps et éviter les clics inutiles."
+        },
+        {
+        "title": "Guide Express",
+        "description": "L’essentiel pour progresser sans te perdre dans des milliers de tutos."
+        },
+        {
+        "title": "Amélioration automatique",
+        "description": "Utilise nos conseils pour monter en niveau sans effort."
+        }
+    ],
+
+    "about": {
+        "title": "À propos de nous",
+        "description": "Nous avons créé une plateforme pour les joueurs qui veulent vraiment progresser. Ici, pas de guides interminables ni de farm sans but : on te propose des exercices, des astuces et des défis concrets pour t’aider à mieux farmer, à monter de niveau et à comprendre le jeu pas à pas.",
+        "purpose": [
+        {
+            "title": "Mission",
+            "description": "Rendre l’amélioration dans League of Legends facile, amusante et accessible à tous."
+        },
+        {
+            "title": "Vision",
+            "description": "Devenir la plateforme numéro un pour apprendre les mécaniques clés comme le farm."
+        }
+        ]
+    },
+
+    "brands": {
+        "title": "Tu veux en savoir plus ? Contacte-nous !"
+    },
+
+    "cta": {
+        "title": "Domine la Faille",
+        "span": "avec LastHit-Legends à tes côtés",
+        "description": "Maîtrise la Faille de l’invocateur avec des outils conçus pour améliorer tes performances. Apprends, pratique et progresse partie après partie.",
+        "button": "Connexion"
+    },
+
+    "navbar": {
+        "home": "Accueil",
+        "services": "Services",
+        "about": "À propos",
+        "login": "Connexion"
+    },
+
+    "pricing": {
+        "title": "Tarifs",
+        "description": "Choisis le plan qui te permettra de dominer la Faille, invocateur.",
+        "bestValue": "Le meilleur choix",
+        "cta": "Boost ton niveau dès le lobby",
+        "free": {
+        "title": "Gratuit",
+        "feature1": "Accès de base aux guides de farm et conseils généraux",
+        "feature2": "Infos limitées sur les champions",
+        "feature3": "Support email basique"
+        },
+        "pro": {
+        "title": "Pro",
+        "feature1": "Guides avancés de farm et stratégies de lane",
+        "feature2": "Accès complet aux données et statistiques des champions",
+        "feature3": "Astuces personnalisées selon ton rôle",
+        "feature4": "Support chat aux heures de bureau"
+        },
+        "elite": {
+        "title": "Élite",
+        "feature1": "Tout ce qui est inclus dans le plan Pro",
+        "feature2": "Analyse vidéo des parties avec retour personnalisé",
+        "feature3": "Alertes en temps réel pour améliorer ton farm et ton positionnement",
+        "feature4": "Support 24/7 et coaching personnalisé"
+        }
+    },
+
+    "languages": {
+        "es": "Espagnol",
+        "en": "Anglais",
+        "fr": "Français",
+        "de": "Allemand"
+    }
+}

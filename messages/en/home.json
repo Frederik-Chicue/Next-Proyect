@@ -1,0 +1,112 @@
+{
+    "hero": {
+        "title": {
+            "part1": "Train your reflexes",
+            "part2": "with LastHitLegends"
+            },
+
+        "description": {
+            "line1": "Ready to take your game to the next level? Discover top farming guides, progression tips, efficient builds, and tactics to climb elo like a pro.",
+            "line2": "Play at your own pace, but strategically."
+        },
+
+        "component": {
+            "subtitle": "Start training now",
+            "button": "Get started"
+        },
+
+        "numbers": {
+            "champions": "Champions",
+            "users": "New Users",
+            "improvements": "Continuous Improvements",
+            "average": "Average Performance Boost"
+        }
+    },
+
+    "services": {
+        "title": "Power-Up Services",
+        "description": "Every player needs that extra boost to reach their full potential. Our Power-Up Services are designed to give you the tools, support, and strategy you need to become a legend with the help of LastHit-Legends."
+    },
+
+    "servicesData": [
+        {
+        "title": "Smart Tips",
+        "description": "Key advice to save you time and unnecessary clicks."
+        },
+        {
+        "title": "Express Guide",
+        "description": "The essentials to improve without getting lost in endless tutorials."
+        },
+        {
+        "title": "Auto Improvement",
+        "description": "Use our tips to level up effortlessly."
+        }
+    ],
+
+    "about": {
+        "title": "About Us",
+        "description": "We created a platform designed for players who truly want to improve. You won’t find endless guides or mindless grinding here—we provide exercises, tips, and challenges that genuinely help you farm better, level up, and understand the game step by step.",
+        "purpose": [
+        {
+            "title": "Mission",
+            "description": "Make improving at League of Legends easy, fun, and accessible to everyone."
+        },
+        {
+            "title": "Vision",
+            "description": "Become the number one platform for learning key mechanics like farming."
+        }
+        ]
+    },
+
+    "brands": {
+        "title": "Want more info? Contact us!"
+    },
+
+    "cta": {
+        "title": "Conquer the Rift",
+        "span": "with LastHit-Legends by your side",
+        "description": "Conquer Summoner’s Rift with tools designed to improve your performance. Learn, practice, and progress game after game.",
+        "button": "Log in"
+    },
+
+    "navbar": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About Us",
+        "login": "Log In"
+    },
+
+    "pricing": {
+        "title": "Pricing",
+        "description": "Choose the plan that will make you a Rift master, summoner.",
+        "bestValue": "Best Value",
+        "cta": "Boost your game from the lobby",
+        "free": {
+        "title": "Free",
+        "feature1": "Basic access to farming guides and general tips",
+        "feature2": "Limited champion information",
+        "feature3": "Basic email support"
+        },
+        "pro": {
+        "title": "Pro",
+        "feature1": "Advanced farming and laning strategies",
+        "feature2": "Full access to champion stats and data",
+        "feature3": "Role-based personalized tips",
+        "feature4": "Chat support during business hours"
+        },
+        "elite": {
+        "title": "Elite",
+        "feature1": "Everything in Pro plan",
+        "feature2": "Video match analysis and feedback",
+        "feature3": "Real-time alerts to improve farming and positioning",
+        "feature4": "24/7 support and personalized coaching"
+        }
+    },
+
+    "languages": {
+        "es": "Spanish",
+        "en": "English",
+        "fr": "French",
+        "de": "German"
+    }
+}

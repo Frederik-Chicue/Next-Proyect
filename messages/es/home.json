@@ -1,0 +1,112 @@
+{
+    "hero": {
+        "title": {
+            "part1": "Entrena tus reflejos",
+            "part2": "con LastHitLegends"
+        },
+
+        "description": {
+            "line1": "¿Listo para llevar tu juego al siguiente nivel? Encuentra las mejores guías de farmeo, tips de progreso, builds eficientes y tácticas para escalar el elo como un pro.",
+            "line2": "Juega a tu ritmo, pero con estrategia."
+        },
+
+        "component": {
+            "subtitle": "Empieza a entrenar ya",
+            "button": "Comienza"
+        },
+
+        "numbers": {
+            "champions": "Campeones",
+            "users": "Nuevos Usuarios",
+            "improvements": "De Mejoras Continuas",
+            "average": "Mejora de Promedio"
+        }
+    },
+
+    "services": {
+        "title": "Servicios Power-Up",
+        "description": "Cada jugador necesita ese empujón extra para alcanzar su máximo potencial. Nuestros Servicios Power-Up están pensados para brindarte las herramientas, el apoyo y la estrategia que necesitas para convertirte en leyenda con la Ayuda de LastHit-Legends."
+    },
+
+    "servicesData": [
+        {
+        "title": "Tips Inteligentes",
+        "description": "Consejos clave que te ahorran tiempo y clicks innecesarios."
+        },
+        {
+        "title": "Guía Express",
+        "description": "Lo esencial para mejorar sin perderte en mil tutoriales."
+        },
+        {
+        "title": "Mejora Automática",
+        "description": "Usa nuestros tips para subir de nivel sin tanto esfuerzo."
+        }
+    ],
+
+    "about": {
+        "title": "Sobre Nosotros",
+        "description": "Creamos una plataforma pensada para jugadores que quieren mejorar de verdad. Aquí no vienes a ver guías eternas ni a grindear sin sentido: te damos ejercicios, tips y retos que realmente te ayudan a farmear mejor, subir de nivel y entender el juego paso a paso.",
+        "purpose": [
+        {
+            "title": "Misión",
+            "description": "Hacer que mejorar en League of Legends sea fácil, entretenido y al alcance de cualquiera."
+        },
+        {
+            "title": "Visión",
+            "description": "Ser la plataforma número uno para aprender mecánicas clave como el farmeo."
+        }
+        ]
+    },
+
+    "brands": {
+        "title": "¿Quieres más info? ¡Consúltanos!"
+    },
+
+    "cta": {
+        "title": "Domina la Grieta",
+        "span": "con LastHit-Legends a tu lado",
+        "description": "Domina la Grieta del Invocador con herramientas pensadas para mejorar tu rendimiento. Aprende, practica y progresa partida tras partida.",
+        "button": "Inicia sesión"
+    },
+
+    "navbar": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "about": "Conócenos",
+        "login": "Iniciar"
+    },
+
+    "pricing": {
+        "title": "Precios",
+        "description": "Selecciona el plan que te hará dominar la Grieta, invocador.",
+        "bestValue": "Mega Ofertón",
+        "cta": "Potencia tu partida desde el lobby",
+        "free": {
+        "title": "Gratis",
+        "feature1": "Acceso básico a guías de farm y consejos generales",
+        "feature2": "Información limitada de campeones",
+        "feature3": "Soporte por email básico"
+        },
+        "pro": {
+        "title": "Pro",
+        "feature1": "Guías avanzadas de farm y estrategias de línea",
+        "feature2": "Acceso completo a datos y estadísticas de campeones",
+        "feature3": "Tips personalizados según tu rol",
+        "feature4": "Soporte por chat en horario laboral"
+        },
+        "elite": {
+        "title": "Élite",
+        "feature1": "Todo lo del plan Pro",
+        "feature2": "Análisis de partidas en video y feedback",
+        "feature3": "Alertas en tiempo real para mejorar tu farmeo y posicionamiento",
+        "feature4": "Soporte 24/7 y asesorías personalizadas"
+        }
+    },
+
+    "languages": {
+        "es": "Español",
+        "en": "Inglés",
+        "fr": "Francés",
+        "de": "Alemán"
+    }
+}

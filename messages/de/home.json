@@ -1,0 +1,112 @@
+{
+    "hero": {
+        "title": {
+        "part1": "Trainiere deine Reflexe",
+        "part2": "mit LastHitLegends"
+        },
+
+        "description": {
+        "line1": "Bereit, dein Spiel aufs nächste Level zu bringen? Entdecke die besten Farming-Guides, Fortschrittstipps, effiziente Builds und Taktiken, um wie ein Profi Elo zu climben.",
+        "line2": "Spiele in deinem Tempo – aber mit Strategie."
+        },
+
+        "component": {
+        "subtitle": "Starte dein Training jetzt",
+        "button": "Loslegen"
+        },
+
+        "numbers": {
+        "champions": "Champions",
+        "users": "Neue Benutzer",
+        "improvements": "Ständige Verbesserungen",
+        "average": "Durchschnittliche Verbesserung"
+        }
+    },
+
+    "services": {
+        "title": "Power-Up Services",
+        "description": "Jeder Spieler braucht einen extra Schub, um sein volles Potenzial zu entfalten. Unsere Power-Up Services geben dir die Tools, Unterstützung und Strategie, um mit LastHit-Legends zur Legende zu werden."
+    },
+
+    "servicesData": [
+        {
+        "title": "Schlaue Tipps",
+        "description": "Wichtige Tipps, die Zeit und unnötige Klicks sparen."
+        },
+        {
+        "title": "Express-Guide",
+        "description": "Das Wesentliche zum Verbessern – ohne tausende Tutorials."
+        },
+        {
+        "title": "Automatische Verbesserung",
+        "description": "Nutze unsere Tipps, um mühelos aufzusteigen."
+        }
+    ],
+
+    "about": {
+        "title": "Über uns",
+        "description": "Wir haben eine Plattform geschaffen für Spieler, die wirklich besser werden wollen. Keine endlosen Guides oder sinnloses Grinden – sondern echte Übungen, Tipps und Herausforderungen, die dir helfen, besser zu farmen, aufzusteigen und das Spiel Schritt für Schritt zu verstehen.",
+        "purpose": [
+        {
+            "title": "Mission",
+            "description": "Verbesserung in League of Legends einfach, unterhaltsam und für alle zugänglich machen."
+        },
+        {
+            "title": "Vision",
+            "description": "Die führende Plattform für das Erlernen wichtiger Mechaniken wie Farming zu werden."
+        }
+        ]
+    },
+
+    "brands": {
+        "title": "Mehr Infos gewünscht? Kontaktiere uns!"
+    },
+
+    "cta": {
+        "title": "Erobere die Kluft",
+        "span": "mit LastHit-Legends an deiner Seite",
+        "description": "Beherrsche die Kluft der Beschwörer mit Tools, die auf Leistung ausgelegt sind. Lerne, übe und wachse – Spiel für Spiel.",
+        "button": "Anmelden"
+    },
+
+    "navbar": {
+        "home": "Startseite",
+        "services": "Services",
+        "about": "Über uns",
+        "login": "Login"
+    },
+
+    "pricing": {
+        "title": "Preise",
+        "description": "Wähle den Plan, der dich zum Champion der Kluft macht.",
+        "bestValue": "Bestes Angebot",
+        "cta": "Booste dein Spiel direkt aus der Lobby",
+        "free": {
+        "title": "Kostenlos",
+        "feature1": "Basiszugang zu Farm-Guides und allgemeinen Tipps",
+        "feature2": "Begrenzte Champion-Informationen",
+        "feature3": "Einfacher E-Mail-Support"
+        },
+        "pro": {
+        "title": "Pro",
+        "feature1": "Fortgeschrittene Farm-Guides und Lanestrategien",
+        "feature2": "Voller Zugriff auf Champion-Daten und Statistiken",
+        "feature3": "Individuelle Tipps je nach Rolle",
+        "feature4": "Live-Chat-Support zu Bürozeiten"
+        },
+        "elite": {
+        "title": "Elite",
+        "feature1": "Alles aus dem Pro-Paket",
+        "feature2": "Videoanalyse deiner Spiele mit Feedback",
+        "feature3": "Echtzeitwarnungen zur Verbesserung von Farming und Positionierung",
+        "feature4": "24/7 Support und individuelles Coaching"
+        }
+    },
+
+    "languages": {
+        "es": "Spanisch",
+        "en": "Englisch",
+        "fr": "Französisch",
+        "de": "Deutsch"
+    }
+}
