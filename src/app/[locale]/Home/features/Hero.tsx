@@ -1,7 +1,7 @@
 import { Container } from "../../components/ui/Container";
 import { Numbers } from "../../components/ui/Numbers";
-import { HeroImage } from "../../components/home/hero/HeroImage";
-import { HeroContent } from "../../components/home/hero/HeroContent";
+import { HeroImage } from "../../components/homeComponents/hero/HeroImage";
+import { HeroContent } from "../../components/homeComponents/hero/HeroContent";
 
 export const Hero = () => {
     return (

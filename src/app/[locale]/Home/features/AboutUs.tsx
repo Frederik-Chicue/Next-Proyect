@@ -2,7 +2,7 @@ import { Container } from "../../components/ui/Container";
 import { Paragraph } from "../../components/ui/Paragraph";
 import { Title } from "../../components/ui/Title";
 import { Info } from "../../components/ui/Info";
-import { AboutImage } from "../../components/home/about/AboutImage";
+import { AboutImage } from "../../components/homeComponents/about/AboutImage";
 import { useAboutPurpose } from "../../utils/useAboutPurpose";
 import { useTranslations } from "next-intl";
 

@@ -6,4 +6,5 @@ export const getNavItems = (t: T) => [
     { to: "home", text: t("navbar.home") },
     { to: "services", text: t("navbar.services") },
     { to: "about-us", text: t("navbar.about") },
+    { to: "plans", text: t("navbar.plans") },
 ];

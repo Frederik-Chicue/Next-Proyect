@@ -1,5 +1,5 @@
 import { Container } from "../../components/ui/Container";
-import { CTAContent } from "../../components/home/cta/CTAContent";
+import { CTAContent } from "../../components/homeComponents/cta/CTAContent";
 
 export const CTA = () => {
     return (

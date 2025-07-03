@@ -73,7 +73,8 @@
         "home": "Inicio",
         "services": "Servicios",
         "about": "Conócenos",
-        "login": "Iniciar"
+        "login": "Iniciar",
+        "plans": ""
     },
 
     "pricing": {

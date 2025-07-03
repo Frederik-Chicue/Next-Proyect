@@ -3,24 +3,24 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
-import { useRouter } from 'next/navigation';
-import { usePathname } from 'next/navigation';
-import { Container } from "../../components/ui/Container";
-import logo from "@/../public/images/Logo.png";
-import { useThemeStore } from "../../store/ThemeStore";
-import { getNavItems } from "../../utils/navItems";
+import { useRouter, usePathname } from 'next/navigation';
+import { Container } from '../../components/ui/Container';
+import logo from '@/../public/images/Logo.png';
+import { useThemeStore } from '../../store/ThemeStore';
+import { getNavItems } from '../../utils/navItems';
+import { getLocalizedPath } from '../../utils/i18n'; 
 
 export const Navbar = () => {
-    const t = useTranslations("home");
+    const t = useTranslations('home');
     const locale = useLocale();
     const router = useRouter();
     const pathname = usePathname();
-
     const navItems = getNavItems(t);
     const { toogleTheme, theme } = useThemeStore();
 
     const changeLanguage = (lng: string) => {
-        router.replace(`/${lng}${pathname}`);
+        const newPath = getLocalizedPath(pathname, lng);
+        router.replace(newPath);
     };
 
     const handleScrollTo = (id: string) => {

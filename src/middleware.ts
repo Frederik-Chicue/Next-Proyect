@@ -1,11 +1,12 @@
 import createMiddleware from 'next-intl/middleware';
-import {routing} from '@/i18n/routing';
-
-export default createMiddleware({
-    ...routing,
-    localePrefix: 'always'
-});
-
+import {routing} from './i18n/routing';
+    
+    export default createMiddleware({
+        ...routing,
+        localePrefix: 'always', // siempre usar /es, /en, etc.
+    });
+    
     export const config = {
-    matcher: ['/((?!_next|favicon.ico|assets|.*\\..*).*)']
+
+    matcher: '/((?!api|trpc|_next|_vercel|.*\\..*).*)'
 };
