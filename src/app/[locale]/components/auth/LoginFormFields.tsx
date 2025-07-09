@@ -1,4 +1,4 @@
-import { InputBox } from "../../../components/auth/InputBox";
+import { InputBox } from "./InputBox";
 import { useTranslations } from "next-intl";
 
 interface Props {

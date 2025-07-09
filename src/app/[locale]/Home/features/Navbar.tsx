@@ -58,7 +58,7 @@ export const Navbar = () => {
 
             <div className="flex items-center gap-x-4 max-sm:gap-2 max-sm:flex-wrap max-sm:justify-end">
                 <Link
-                href="/login"
+                href="/auth/login"
                 className="px-6 py-3 rounded-full border bg-blue-700 dark:bg-pink-700 cursor-pointer"
                 >
                 <span className="text-white">{t("navbar.login")}</span>

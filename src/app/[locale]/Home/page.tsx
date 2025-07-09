@@ -1,4 +1,4 @@
-import { Layout } from "./features/HomeLayout";
+import { Layout } from "./features/Layout";
 import { AboutUs } from "./features/AboutUs";
 import { Brands } from "./features/Brands";
 import { CTA } from "./features/CallToAction";

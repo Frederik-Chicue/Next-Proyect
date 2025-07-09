@@ -13,7 +13,7 @@ export const HeroForm = () => {
         <form
             onSubmit={(e) => {
                 e.preventDefault();
-                router.push("/register");
+                router.push("/auth/register");
             }}
             className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3
             shadow-lg shadow-box-shadow border border-box-border

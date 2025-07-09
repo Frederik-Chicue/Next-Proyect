@@ -1,23 +1,7 @@
-import styles from "../../styles/AuthForm.module.css";
-import { LoginFormFields } from "./features/LoginFormFields";
-import { SocialAuthButtons } from "../../components/auth/SocialAuthButtons";
-import { useLoginForm } from "../../hooks/useLoginForm";
-import { useTranslations } from "next-intl";
+'use client';
 
-export const LoginFormContainer = () => {
-    const t = useTranslations ("auth");
-    const { data, handleInputChange, handleFormSubmit } = useLoginForm();
+import { AuthForm } from '../../components/auth/AuthForm';
 
-    return (
-        <section className={`${styles["form-box"]} ${styles.login}`} aria-labelledby="login-title">
-        <form aria-label="Login form" role="form" onSubmit={handleFormSubmit}>
-            <h1 id="login-title">{t("title.login")} </h1>
-            <LoginFormFields data={data} onChange={handleInputChange} /> 
-            <button type="submit" className={styles.btn}>
-            {t("title.login")}
-            </button>
-            <SocialAuthButtons context="Inicia" />
-        </form>
-        </section>
-    );
-};
+export default function LoginPage() {
+    return <AuthForm />;
+}

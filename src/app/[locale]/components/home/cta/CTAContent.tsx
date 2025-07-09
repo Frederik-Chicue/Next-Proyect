@@ -17,7 +17,7 @@ export const CTAContent = () => {
         </Paragraph>
 
         <div className="mx-auto max-w-md sm:max-w-xl pt-10 dark:text-white">
-            <Link href="/login">
+            <Link href="/auth/login">
             <Button className="w-50 transform transition-transform duration-300 hover:scale-105 text-white">
                 {t("cta.button")}
             </Button>

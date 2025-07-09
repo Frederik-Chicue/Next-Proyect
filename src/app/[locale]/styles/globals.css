@@ -70,3 +70,7 @@ body {
     color: rgb(var(--heading-3));
   }
 }
+
+:global(form) {
+  width: 100%;
+}
