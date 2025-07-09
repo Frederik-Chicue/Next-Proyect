@@ -1,11 +1,11 @@
-import styles from "../../../styles/AuthForm.module.css";
-import { LoginFormFields } from "./LoginFormFields";
-import { SocialAuthButtons } from "./SocialAuthButtons";
-import { useLoginForm } from "../../../hooks/useLoginForm";
-import { useTranslation } from "react-i18next";
+import styles from "../../styles/AuthForm.module.css";
+import { LoginFormFields } from "./features/LoginFormFields";
+import { SocialAuthButtons } from "../../components/auth/SocialAuthButtons";
+import { useLoginForm } from "../../hooks/useLoginForm";
+import { useTranslations } from "next-intl";
 
 export const LoginFormContainer = () => {
-    const { t } = useTranslation ("auth");
+    const t = useTranslations ("auth");
     const { data, handleInputChange, handleFormSubmit } = useLoginForm();
 
     return (

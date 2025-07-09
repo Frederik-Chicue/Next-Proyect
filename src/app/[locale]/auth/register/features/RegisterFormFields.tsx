@@ -1,4 +1,4 @@
-import { InputBox } from "./InputBox";
+import { InputBox } from "../../components/auth/InputBox";
 
 interface Props {
     data: {

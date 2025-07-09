@@ -1,4 +1,4 @@
-import styles from "../../../styles/AuthForm.module.css";
+import styles from "../../styles/AuthForm.module.css";
 
 interface InputBoxProps {
     id: string;

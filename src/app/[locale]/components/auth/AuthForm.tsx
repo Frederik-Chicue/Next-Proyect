@@ -1,15 +1,17 @@
-import { useLocation, useNavigate } from "react-router-dom";
+"use client";
+
+import { useRouter, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { LoginFormContainer } from "./LoginForm";
-import { RegisterFormContainer } from "./RegisterForm";
+import { LoginFormContainer } from "../../login/Loginform";
+import { RegisterFormContainer } from "../../register/RegisterForm";
 import { AuthTogglePanel } from "./AuthTogglePanel";
-import styles from "../../../styles/AuthForm.module.css";
+import styles from "../../styles/AuthForm.module.css";
 import "boxicons/css/boxicons.min.css";
 
 export const AuthForm = () => {
-    const location = useLocation();
-    const navigate = useNavigate();
-    const isRegisterRoute = location.pathname === "/register";
+    const router = useRouter();
+    const pathname = usePathname();
+    const isRegisterRoute = pathname === "/register";
     const [showRegisterForm, setShowRegisterForm] = useState(isRegisterRoute);
     useEffect(() => {
         const timeout = setTimeout(() => {
@@ -20,7 +22,7 @@ export const AuthForm = () => {
     }, [isRegisterRoute]);
 
     const handleToggle = () => {
-        navigate(isRegisterRoute ? "/login" : "/register");
+        router.push(isRegisterRoute ? "/login" : "/register");
     };
 
     return (

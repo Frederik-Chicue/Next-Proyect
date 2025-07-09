@@ -1,6 +1,10 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-@theme {
+:root {
+  --auth-bg-gradient: linear-gradient(200deg, #d6cdf0, #c7daee);
+
+  /* Colors (light mode) */
   --color-bg: 255 255 255;
   --color-box: 255 255 255;
   --box-border: 229 231 235;
@@ -8,9 +12,14 @@
   --heading-1: 23 37 84;
   --heading-2: 31 41 55;
   --heading-3: 55 65 81;
+
+  font-family: 'Poppins', sans-serif;
 }
 
 .dark {
+  --auth-bg-gradient: linear-gradient(200deg, #1c2129, #222e3f);
+
+  /* Colors (dark mode) */
   --color-bg: 3 7 18;
   --color-box: 17 24 39;
   --box-border: 243 244 246 / 0.1;
@@ -18,6 +27,30 @@
   --heading-1: 255 255 255;
   --heading-2: 243 244 246;
   --heading-3: 209 213 219;
+}
+
+/* 3. Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif; /* Unificamos la fuente */
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.auth-page-bg {
+  background: var(--auth-bg-gradient);
 }
 
 @layer utilities {
@@ -36,25 +69,4 @@
   .text-heading-3 {
     color: rgb(var(--heading-3));
   }
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Raleway", sans-serif;
-}
-
-:root {
-  --auth-bg-gradient: linear-gradient(200deg, #d6cdf0, #c7daee);
-}
-
-.dark {
-  --auth-bg-gradient: linear-gradient(200deg, #1c2129, #222e3f);
-}
-
-
-.auth-page-bg {
-    background: var(--auth-bg-gradient);
 }

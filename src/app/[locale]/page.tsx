@@ -1,5 +1,5 @@
-import { Home } from '@/app/[locale]/Home/Home';
-import './globals.css';
+import { Home } from '@/app/[locale]/home/page';
+import '../[locale]/styles/globals.css';
 
 export default function LocaleHomePage() {
   return <Home />;

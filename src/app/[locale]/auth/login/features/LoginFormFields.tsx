@@ -1,5 +1,5 @@
-import { InputBox } from "./InputBox";
-import { useTranslation } from "react-i18next";
+import { InputBox } from "../../../components/auth/InputBox";
+import { useTranslations } from "next-intl";
 
 interface Props {
     data: {
@@ -10,7 +10,7 @@ interface Props {
 }
 
 export const LoginFormFields = ({ data, onChange }: Props) => {
-    const { t } = useTranslation("auth");
+    const t = useTranslations("auth");
 
     return (
         <>

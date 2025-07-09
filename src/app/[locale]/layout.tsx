@@ -1,6 +1,7 @@
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
+import { AuthProvider } from './store/AuthContext';
 
 export default async function LocaleLayout({
     children,
@@ -18,7 +19,11 @@ export default async function LocaleLayout({
     return (
       <html lang={locale}>
         <body>
-          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <NextIntlClientProvider>  
+            <AuthProvider>
+              {children}
+            </AuthProvider>
+          </NextIntlClientProvider>
         </body>
       </html>
     );

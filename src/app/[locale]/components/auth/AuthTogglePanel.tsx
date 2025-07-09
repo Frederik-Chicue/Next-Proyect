@@ -1,6 +1,6 @@
-import styles from "../../../styles/AuthForm.module.css";
+import styles from "../../styles/AuthForm.module.css";
 import { ToggleButton } from "./ToggleButton";
-import { useTranslation } from "react-i18next";
+import { useTranslations } from "next-intl";
 
 interface Props {
     onToggle: (register: boolean) => void;
@@ -23,7 +23,7 @@ const TogglePanel = ({ title, description, label, onClick, panelStyle }: PanelPr
 );
 
 export const AuthTogglePanel = ({ onToggle }: Props) => {
-    const { t } = useTranslation("auth");
+    const t  = useTranslations("auth");
 
     return (
         <div className={styles["toggle-box"]}>

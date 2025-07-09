@@ -1,11 +1,11 @@
-import styles from "../../../styles/AuthForm.module.css";
-import { RegisterFormFields } from "./RegisterFormFields";
-import { SocialAuthButtons } from "./SocialAuthButtons";
-import { useRegisterForm } from "../../../hooks/useRegisterForm";
-import { useTranslation } from "react-i18next";
+import styles from "../../styles/AuthForm.module.css";
+import { RegisterFormFields } from "./features/RegisterFormFields";
+import { SocialAuthButtons } from "../../components/auth/SocialAuthButtons";
+import { useRegisterForm } from "../../hooks/useRegisterForm";
+import { useTranslations } from "next-intl";
 
 export const RegisterFormContainer = () => {
-    const { t } = useTranslation ("auth");
+    const t = useTranslations ("auth");
     const { data, handleInputChange, handleFormSubmit } = useRegisterForm();
 
     return (
@@ -19,4 +19,5 @@ export const RegisterFormContainer = () => {
         </section>
     );
 };
+
 
