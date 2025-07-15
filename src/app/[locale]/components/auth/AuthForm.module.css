@@ -22,7 +22,7 @@
     height: 550px;
     background: rgb(var(--color-box));
     border-radius: 30px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
     margin: 40px;
     overflow: hidden;
     color: rgb(var(--heading-2));
@@ -31,7 +31,7 @@
 .form-box {
     position: absolute;
     right: 0;
-    width: 50%;
+    width: 45%;
     height: 100%;
     background: rgb(var(--color-box));
     display: flex;
@@ -39,7 +39,10 @@
     text-align: center;
     padding: 40px;
     z-index: 1;
-    transition: .6s ease-in-out 1.2s, visibility 0s 1s;
+    transition:
+    0.6s ease-in-out 1.2s,
+    visibility 0s 1s;
+    margin-right: 12px;
 }
 
 .container.active .form-box {
@@ -67,15 +70,16 @@
 }
 
 .input-box input {
-    width: 100%;
-    padding: 13px 50px 13px 20px;
+    width: 100%; 
+    padding: 16px 50px 16px 20px;
     background: rgb(var(--box-border));
     border-radius: 8px;
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(var(--heading-2));
     font-weight: 500;
+    transition: all 0.3s ease; 
 }
 
 .input-box input::placeholder {
@@ -88,16 +92,20 @@
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 20px;
+    font-size: 22px; 
     color: rgb(var(--heading-3));
 }
 
 .btn {
     width: 100%;
     height: 48px;
-    background: linear-gradient(to right, #2563eb, #8b5cf6); /* Degradado azul-violeta */
+    background: linear-gradient(
+        to right,
+        #2563eb,
+        #8b5cf6
+    );
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -106,11 +114,13 @@
     transition: background 0.3s ease;
 }
 
-
 .btn:hover {
-    background: linear-gradient(to right, #1d4ed8, #7c3aed); /* tono más intenso al hacer hover */
+    background: linear-gradient(
+        to right,
+        #1d4ed8,
+        #7c3aed
+    );
 }
-
 
 .container p {
     font-size: 14.5px;
@@ -146,12 +156,15 @@
     left: -250%;
     width: 300%;
     height: 100%;
-    background: linear-gradient(to right, #3d77f3, #8b5cf6); /* degradado azul a violeta */
+    background: linear-gradient(
+        to right,
+        #3d77f3,
+        #8b5cf6
+    );
     border-radius: 150px;
     z-index: 2;
     transition: 1.8s ease-in-out;
 }
-
 
 .container.active .toggle-box::before {
     left: 50%;
@@ -167,7 +180,7 @@
     justify-content: center;
     align-items: center;
     z-index: 2;
-    transition: .6s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
 
 .toggle-panel.toggle-left {
@@ -179,12 +192,12 @@
 
 .container.active .toggle-panel.toggle-left {
     left: -50%;
-    transition-delay: .6s;
+    transition-delay: 0.6s;
 }
 
 .toggle-panel.toggle-right {
     right: -50%;
-    transition-delay: .6s;
+    transition-delay: 0.6s;
     font-weight: 750;
     font-size: 25px;
 }
@@ -207,37 +220,25 @@
     box-shadow: none;
 }
 
-@media screen and (max-width: 830px) {
-    .container {
-        width: 95vw;
-        margin: 20px auto;
-    }
-
-    .form-box {
-        padding: 40px 25px; 
-    }
-
-    .toggle-panel {
-        padding: 0 25px;
-    }
-}
-
 @media screen and (max-width: 650px) {
     .container {
         position: relative;
-        width: 90vw;
-        min-height: 115vh;
-        height: auto;
-        background: rgb(var(--color-box));
-        margin: 40px;
-        overflow: hidden;
+        width: 110vw;
+        min-height: 100vh;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .form-box {
-        bottom: 0;
+        position: relative;
         width: 100%;
-        height: 70%;
-        padding: 40px clamp(16px, 5vw, 40px);
+        max-width: 450px;
+        padding: 420px 90px;
+        margin: 20px auto;
+        transition: all;
     }
 
     .container.active .form-box {
@@ -262,6 +263,10 @@
         width: 100%;
         height: 30%;
         padding: 0 clamp(16px, 5vw, 40px);
+        .toggle-panel {
+        left: 50%;
+        transform: translateX(-50%);
+        }
     }
 
     .toggle-panel.toggle-left {
@@ -280,15 +285,5 @@
 
     .container.active .toggle-panel.toggle-right {
         bottom: 0;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .form-box {
-        padding: 20px;
-    }
-
-    .toggle-panel h1 {
-        font-size: 30px;
     }
 }

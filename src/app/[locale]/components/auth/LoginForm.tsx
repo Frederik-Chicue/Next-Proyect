@@ -1,4 +1,4 @@
-import styles from "../../styles/AuthForm.module.css";
+import styles from './AuthForm.module.css';
 import { LoginFormFields } from "./LoginFormFields";
 import { SocialAuthButtons } from "./SocialAuthButtons";
 import { useLoginForm } from "../../hooks/useLoginForm";

@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { LoginFormContainer } from './LoginForm';
 import { RegisterFormContainer } from './RegisterForm';
 import { AuthTogglePanel } from './AuthTogglePanel';
-import styles from '../../styles/AuthForm.module.css';
+import styles from './AuthForm.module.css';
 import 'boxicons/css/boxicons.min.css';
 
 export const AuthForm = () => {
@@ -20,7 +20,7 @@ export const AuthForm = () => {
         setIsActive(isRegisterRoute);
         const timeout = setTimeout(() => {
         setShowRegisterForm(isRegisterRoute);
-        }, 10000);
+        }, 1000);
 
         return () => clearTimeout(timeout);
     }, [isRegisterRoute]);

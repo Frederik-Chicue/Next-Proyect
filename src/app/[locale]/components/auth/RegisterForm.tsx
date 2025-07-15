@@ -1,4 +1,4 @@
-import styles from "../../styles/AuthForm.module.css";
+import styles from './AuthForm.module.css';
 import { RegisterFormFields } from "./RegisterFormFields";
 import { SocialAuthButtons } from "./SocialAuthButtons";
 import { useRegisterForm } from "../../hooks/useRegisterForm";

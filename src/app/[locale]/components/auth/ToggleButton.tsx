@@ -1,4 +1,4 @@
-import styles from "../../styles/AuthForm.module.css";
+import styles from './AuthForm.module.css';
 
 interface Props {
     label: string;
