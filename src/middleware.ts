@@ -3,7 +3,7 @@ import {routing} from './i18n/routing';
     
     export default createMiddleware({
         ...routing,
-        localePrefix: 'always', // siempre usar /es, /en, etc.
+        localePrefix: 'always', 
     });
     
     export const config = {

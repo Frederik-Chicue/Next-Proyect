@@ -76,7 +76,7 @@
     border-radius: 8px;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(var(--heading-2));
     font-weight: 500;
     transition: all 0.3s ease; 
