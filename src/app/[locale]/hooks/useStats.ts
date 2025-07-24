@@ -1,15 +1,32 @@
-import { useMemo } from "react";
-import { useQuiz } from "../context/QuizContext";
-import type { ChampionSummary } from "../types/Champion";
+import { useMemo } from 'react';
+import { useQuiz } from '../context/QuizContext';
+import type { ChampionSummary } from '../types/Champion';
 
-export function useStats(champions: ChampionSummary[]) {
+interface Stats {
+    correct: number;
+    remaining: number;
+    total: number;
+}
+
+export function useStats(champions: ChampionSummary[]): Stats {
     const { progress } = useQuiz();
 
-    return useMemo(() => {
+    const stats = useMemo(() => {
         const total = champions.length;
-        const acertados = progress ? Object.keys(progress).length : 0;
-        const faltan = total - acertados;
 
-        return { acertados, faltan, total };
-    }, [champions.length, progress]);
+        if (!progress) {
+        return {
+            correct: 0,
+            remaining: total,
+            total,
+        };
+        }
+
+        const correct = Object.keys(progress).length;
+        const remaining = total - correct;
+
+        return { correct, remaining, total };
+    }, [champions, progress]);
+
+    return stats;
 }

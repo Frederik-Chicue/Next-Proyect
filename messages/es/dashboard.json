@@ -14,8 +14,8 @@
     "empty": "No se encontraron campeones.",
     
     "banner": {
-        "correct": "Has acertado en {{count}}",
-        "remaining": "Te faltan {{count}}"
+        "correct": "Has acertado en {count}",
+        "remaining": "Te faltan {count}"
     },
 
     "quiz": {
@@ -27,8 +27,8 @@
     "quizCompleted": "Quiz completado",
     "tags": "Roles",
     "close": "Cerrar",
-    "questionTitle": "Pregunta sobre {{name}}",
-    "questionText": "¿Cuál de estos «tags» pertenece a {{name}}?",
+    "questionTitle": "Pregunta sobre {name}",
+    "questionText": "¿Cuál de estos «tags» pertenece a {name}?",
 
     "roles": {
         "Mage": "Mago",

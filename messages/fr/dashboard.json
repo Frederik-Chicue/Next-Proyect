@@ -14,8 +14,8 @@
     "empty": "Aucun champion trouvé.",
     
     "banner": {
-        "correct": "Tu as répondu correctement à {{count}}",
-        "remaining": "Il t’en reste {{count}}"
+        "correct": "Tu as répondu correctement à {count}",
+        "remaining": "Il t’en reste {count}"
     },
 
     "quiz": {
@@ -27,8 +27,8 @@
     "quizCompleted": "Quiz terminé",
     "tags": "Rôles",
     "close": "Fermer",
-    "questionTitle": "Question sur {{name}}",
-    "questionText": "Lequel de ces rôles appartient à {{name}} ?",
+    "questionTitle": "Question sur {name}",
+    "questionText": "Lequel de ces rôles appartient à {name} ?",
 
     "roles": {
         "Mage": "Mage",

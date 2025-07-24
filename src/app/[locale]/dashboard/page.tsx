@@ -1,8 +1,10 @@
-"use client"
+'use client';
 
-import { useChampionList } from "../hooks/useChampionList";
-import { useStats } from "../hooks/useStats";
-import { useTranslations } from "next-intl";
+import { useChampionList } from '../hooks/useChampionList';
+import { useStats } from '../hooks/useStats';
+import { useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
+import '../styles/globals.css';
 
 function StatCard({
     icon,
@@ -30,35 +32,43 @@ function StatCard({
 
 export default function DashboardPage() {
     const { champions } = useChampionList();
-    const { acertados, faltan } = useStats(champions);
-    const t = useTranslations("dashboard");
+    const { correct, remaining } = useStats(champions);
+    const t = useTranslations('dashboard');
+
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    if (!mounted) return null; // evita render hasta que esté montado en cliente
 
     const stats = [
         {
-        icon: "bx bx-calendar",
-        color: "bg-blue-100 text-blue-600",
+        icon: 'bx bx-calendar',
+        color: 'bg-blue-100 text-blue-600',
         value: champions.length,
-        label: t("stats.total"),
+        label: t('stats.total'),
         },
         {
-        icon: "bx bx-user-check",
-        color: "bg-yellow-100 text-yellow-600",
-        value: acertados,
-        label: t("stats.completed"),
+        icon: 'bx bx-user-check',
+        color: 'bg-yellow-100 text-yellow-600',
+        value: correct,
+        label: t('stats.completed'),
         },
         {
-        icon: "bx bx-dumbbell",
-        color: "bg-red-100 text-red-600",
-        value: faltan,
-        label: t("stats.remaining"),
+        icon: 'bx bx-dumbbell',
+        color: 'bg-red-100 text-red-600',
+        value: remaining,
+        label: t('stats.remaining'),
         },
     ];
 
     return (
         <div className="px-8 py-12 max-w-screen-xl mx-auto">
         <div className="mb-12">
-            <h1 className="text-5xl font-bold text-heading-1">{t("title")}</h1>
-            <p className="text-heading-3 text-lg mt-2">{t("breadcrumb")}</p>
+            <h1 className="text-5xl font-bold text-heading-1">{t('title')}</h1>
+            <p className="text-heading-3 text-lg mt-2">{t('breadcrumb')}</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">

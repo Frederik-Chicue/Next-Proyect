@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('boxicons/css/boxicons.min.css');
 
 :root {
   --auth-bg-gradient: linear-gradient(200deg, #d6cdf0, #c7daee);
@@ -11,6 +12,7 @@
   --heading-1: 23 37 84;
   --heading-2: 31 41 55;
   --heading-3: 55 65 81;
+  --header-gradient: linear-gradient(to right, #3908ff, #7c02ff);
 
   font-family: 'Poppins', sans-serif;
 }
@@ -24,6 +26,7 @@
   --heading-1: 255 255 255;
   --heading-2: 243 244 246;
   --heading-3: 209 213 219;
+  --header-gradient: linear-gradient(to right, #3e2c94, #8e54e9);
 }
 
 html {
@@ -31,7 +34,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif; /* Unificamos la fuente */
+  font-family: 'Poppins', sans-serif;
 }
 
 .sr-only {

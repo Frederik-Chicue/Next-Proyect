@@ -14,8 +14,8 @@
     "empty": "Keine Champions gefunden.",
 
     "banner": {
-        "correct": "{{count}} richtig beantwortet",
-        "remaining": "{{count}} verbleibend"
+        "correct": "{count} richtig beantwortet",
+        "remaining": "{count} verbleibend"
     },
 
     "quiz": {
@@ -27,8 +27,8 @@
     "quizCompleted": "Quiz abgeschlossen",
     "tags": "Rollen",
     "close": "Schließen",
-    "questionTitle": "Frage zu {{name}}",
-    "questionText": "Welche dieser Rollen gehört zu {{name}}?",
+    "questionTitle": "Frage zu {name}",
+    "questionText": "Welche dieser Rollen gehört zu {name}?",
 
     "roles": {
         "Mage": "Magier",

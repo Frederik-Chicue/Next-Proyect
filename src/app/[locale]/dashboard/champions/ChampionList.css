@@ -1,0 +1,66 @@
+.champion-grid {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1.5rem;
+}
+
+.champion-card {
+    background-color: rgb(var(--color-box));
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(var(--box-sd));
+    text-align: center;
+    text-decoration: none;
+    color: rgb(var(--heading-2));
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.champion-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(var(--box-sd));
+}
+
+.champion-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(240, 240, 240); /* Puedes crear una variable para esto si lo necesitas */
+    margin: 0 auto;
+}
+
+.champion-name {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    color: rgb(var(--heading-1));
+}
+
+.champion-title {
+    font-size: 0.85rem;
+    color: rgb(var(--heading-3));
+}
+
+.search-input {
+    background-color: rgb(var(--color-box));
+    color: rgb(var(--heading-1));
+    border: 1px solid rgb(var(--box-border));
+}
+
+.search-input::placeholder {
+    color: rgb(var(--heading-3));
+}
+
+.champion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1.25rem;
+    padding: 0 1rem;
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 1200px;
+}
